@@ -22,7 +22,7 @@ before_install:
   - yes | sdkmanager "platforms;android-26"
 
 script:
-  - ./gradlew build
+  - ./gradlew build --info --stacktrace
 
 #notifications:
   #slack:
